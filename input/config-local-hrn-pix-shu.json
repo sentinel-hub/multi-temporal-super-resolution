@@ -1,0 +1,65 @@
+{
+  "paths": {
+    "prefix": "/home/ubuntu/npz-unpacked-small-2.5m/",
+    "checkpoint_dir": "models/weights",
+    "scores_dir": "models/scores",
+    "tb_log_file_dir": "tb_logs/"
+  },
+
+  "network": {
+    "upscale_factor": 4,
+    "encoder": {
+      "in_channels": 8,
+      "num_layers" : 8,
+      "kernel_size": 3,
+      "channel_size": 64
+    },
+    "recursive": {
+      "alpha_residual": true,
+      "in_channels": 64,
+      "kernel_size": 3
+    },
+    "decoder": {
+      "pixel_shuffle": {
+        "in_channels": 64,
+        "kernel_size": 3,
+        "out_channels": 64,
+        "stride": 1,
+        "scale": 4
+      }
+    }
+  },
+    
+  "training": {
+    "num_epochs": 50,
+    "validation_metrics": ["SSIM", "PSNR", "MSE", "MIXED", "MAE"],
+    "histogram_matching": false,
+    "loss_metric": "MSE",
+    "apply_correction": true,
+    "augment": false,
+    "use_reg_regularization": true,
+    "lambda": 0.001,
+    "use_kl_div_loss": true,
+    "eta": 10,
+    "wandb": true,
+    "use_gpu": true,
+    "batch_size": 32,
+    "n_views": 8,
+    "n_workers": 8,
+    "reg_offset": 16,
+    "lr": 0.0007,
+    "patch_size": 32,
+    "seed": 0,
+    "channels_features": [0, 1, 2, 3],
+    "channels_labels": [0, 1, 2, 3]
+  },
+  "visualization": {
+        "channels_to_plot": [2, 1, 0],
+        "distribution_sampling_proba": 0.05
+
+   },
+    "perceptual_loss": {
+    "model_name": "NivaModelV2",
+    "weight": 0.05
+    } 
+}

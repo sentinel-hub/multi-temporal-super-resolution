@@ -1,0 +1,16 @@
+fs
+dataclasses
+numpy
+pandas
+sentinelhub
+eo-learn-core
+opencv-python
+matplotlib
+torch
+torchvision
+wandb
+tqdm
+piqa==1.1.0
+tensorboardX
+pyarrow
+scikit-image

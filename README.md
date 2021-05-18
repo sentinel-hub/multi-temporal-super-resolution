@@ -1,7 +1,7 @@
 # DIONE - Super Resolution using Sentinel-2 and Deimos imagery  
 This repo contains code to train a multitemporal super-resolution model for Sentinel-2 imagery using Deimos.
 
-You can find more information about this project in the blog post [Multi-temporal Super-Resolution on Sentinel-2 Imagery]()
+You can find more information about this project in the blog post [Multi-temporal Super-Resolution on Sentinel-2 Imagery](https://medium.com/sentinel-hub/multi-temporal-super-resolution-on-sentinel-2-imagery-6089c2b39ebc)
 
 ## Introduction
 This project is part of the DIONE project  where one of the missions is using novel techniques to  improve the capabilities of satellite technology while integrating various data sources, such as very high resolution imagery, to, for example, enable monitoring of smaller agricultural parcels through the use of super resolution models.

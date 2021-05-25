@@ -1,4 +1,8 @@
-""" Python modules for Lanczos interpolation. """
+""" Python modules for Lanczos interpolation. 
+
+Credits:
+This code is adapted from ElementAI's HighRes-Net: https://github.com/ElementAI/HighRes-net
+"""
 
 
 import torch

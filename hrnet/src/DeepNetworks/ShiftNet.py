@@ -2,7 +2,11 @@
     Reference: https://arxiv.org/pdf/1606.03798.pdf and https://github.com/mazenmel/Deep-homography-estimation-Pytorch
     Currently supports translations (2 params)
     The network reads pair of images (tensor x: [B,2*C,W,H])
-    and outputs parametric transformations (tensor out: [B,n_params]).'''
+    and outputs parametric transformations (tensor out: [B,n_params]).
+
+Credits:
+This code is adapted from ElementAI's HighRes-Net: https://github.com/ElementAI/HighRes-net
+'''
 
 import torch
 import torch.nn as nn

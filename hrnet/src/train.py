@@ -1,4 +1,8 @@
-""" Python script to train HRNet + shiftNet for multi frame super resolution (MFSR) """
+""" Python script to train HRNet + shiftNet for multi frame super resolution (MFSR) 
+
+Credits:
+This code is adapted from ElementAI's HighRes-Net: https://github.com/ElementAI/HighRes-net
+"""
 
 import os
 import gc

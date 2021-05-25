@@ -1,1 +1,1 @@
-The HighResNet model was adapted from [https://github.com/ElementAI/HighRes-net](Element AI HIghRes-net repository).
+The HighResNet model was adapted from [Element AI HIghRes-net repository](https://github.com/ElementAI/HighRes-net).

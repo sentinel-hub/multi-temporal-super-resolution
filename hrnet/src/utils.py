@@ -1,4 +1,8 @@
-""" Python utilities """
+""" Python utilities 
+
+Credits:
+This code is adapted from ElementAI's HighRes-Net: https://github.com/ElementAI/HighRes-net
+"""
 import numpy as np
 from matplotlib.backends.backend_agg import FigureCanvasAgg
 from matplotlib.figure import Figure

@@ -35,3 +35,6 @@ Procedure is executed in notebooks, the basic functionality of each notebook is 
 * `06-train.ipynb` Model training. 
 * `07-predict.ipynb`  Predict the model on smaller patchlets. 
 * `07b-predict-eopatches.ipynb` Predict the model on whole EOPatches. 
+
+## Acknowledgments
+The code is adapted from [ElementAI's HighResNet code](https://github.com/ElementAI/HighRes-net). Refer also to the [published paper](https://arxiv.org/abs/2002.06460)

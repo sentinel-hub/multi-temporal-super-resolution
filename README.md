@@ -37,4 +37,4 @@ Procedure is executed in notebooks, the basic functionality of each notebook is 
 * `07b-predict-eopatches.ipynb` Predict the model on whole EOPatches. 
 
 ## Acknowledgments
-The code is adapted from [ElementAI's HighResNet code](https://github.com/ElementAI/HighRes-net). Refer also to the [published paper](https://arxiv.org/abs/2002.06460)
+The code is adapted from [ElementAI's HighResNet code](https://github.com/ElementAI/HighRes-net). Refer also to the [published paper](https://arxiv.org/abs/2002.06460).

@@ -1,4 +1,7 @@
-""" Pytorch implementation of HRNet, a neural network for multi-frame super resolution (MFSR) by recursive fusion. """
+""" Pytorch implementation of HRNet, a neural network for multi-frame super resolution (MFSR) by recursive fusion. 
+Credits:
+This code is adapted from ElementAI's HighRes-Net: https://github.com/ElementAI/HighRes-net
+"""
 
 import torch.nn as nn
 import torch
